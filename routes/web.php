@@ -11,6 +11,7 @@
 |
 */
 
+Route::get('test','TestController@show');
 Route::get('/', function () {
     return view('welcome');
 });
